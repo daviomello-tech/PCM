@@ -1,0 +1,45 @@
+RELATÓRIO DE VERIFICAÇÃO — 05/11/2026
+
+TESTES AUTOMATIZADOS DA LÓGICA (Node, armazenamento simulado)
+APROVADO — carga inicial com 15 equipamentos e empresa BINTECH.
+APROVADO — rejeição de TAG duplicada.
+APROVADO — geração de OS a partir de SS e prevenção de OS duplicada.
+APROVADO — bloqueio de exclusão de equipamento vinculado.
+APROVADO — rejeição de encerramento com campos incompletos.
+APROVADO — PT aplicável exige aprovação, responsável e data.
+APROVADO — registro completo atende aos critérios de encerramento.
+APROVADO — serialização e recuperação do registro completo.
+APROVADO — importação idempotente, sem duplicar registros iguais.
+APROVADO — conflito de importação cancela alteração sem sobrescrever.
+APROVADO — geração de arquivo PDF 1.4, A4, com duas páginas no teste.
+
+VERIFICAÇÃO NO NAVEGADOR DA PRÉVIA LOCAL
+APROVADO — carregamento do painel, menu e contagem de 15 equipamentos.
+APROVADO — abertura de OS diretamente da SS do compressor.
+APROVADO — preenchimento de responsável e objetivo.
+APROVADO — tentativa de encerrar incompleta mostra campos pendentes.
+APROVADO — salvar rascunho, recarregar e consultar responsável preservado.
+APROVADO — inspeção visual do painel no tamanho desktop.
+
+PDF
+Arquivo gerado pela própria função do aplicativo reconhecido pelo pdfinfo.
+Primeira página renderizada e inspecionada visualmente; sem corte de texto.
+Documento de teste não é resultado real de manutenção.
+
+LIMITAÇÕES DA VERIFICAÇÃO
+O ciclo completo de encerramento foi verificado na lógica, não preenchido
+integralmente pela interface do navegador. Não foram testados todos os
+navegadores, celulares ou modos locais file://. Layout responsivo está
+implementado, mas não houve auditoria visual em dispositivo físico.
+Restauração de backup completo e todas as operações em lote não passaram
+por um teste visual completo. A lógica básica de proteção foi testada.
+Google/login, salvamento online e acesso a outro dispositivo não foram
+implementados nem testados. Não há anexos de datasheet dentro do aplicativo.
+
+REDESIGN
+Testes automatizados da lógica repetidos e aprovados após alteração visual.
+Painel desktop inspecionado no navegador após aplicação do novo tema.
+
+IDENTIDADE VISUAL
+Logo incorporada sem dependências externas; painel desktop inspecionado
+novamente. Testes da lógica repetidos após os ajustes de marca.

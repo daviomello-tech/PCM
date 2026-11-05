@@ -1,0 +1,44 @@
+BINCORP — CASO DIDÁTICO PARA APRESENTAÇÃO
+Especialidade: inspeção por ultrassom.
+Todos os fatos abaixo são fictícios e não representam uma instalação real.
+
+1. EQUIPAMENTO
+Use CMP-201, compressor de ar do cenário didático, já cadastrado.
+
+2. NOVA SS
+Solicitante: Equipe de operação — simulação.
+Descrição: suspeita de vazamento na conexão da linha de ar comprimido,
+com ruído percebido durante operação. Solicita-se inspeção por ultrassom,
+identificação do ponto e registro das evidências.
+Tipo: Preditiva. Prioridade: Média (confirmar conforme criticidade real).
+
+3. OS
+Objetivo: inspecionar as conexões previstas, registrar leituras e indicar
+necessidade de avaliação complementar. Não declarar reparo executado.
+Recursos: profissional capacitado e detector adequado, verificado segundo
+manual. A identificação real do instrumento deve ser preenchida na atividade.
+Materiais: nenhum componente de reposição previsto para a inspeção inicial.
+
+4. PROCEDIMENTO
+Use o botão Inserir roteiro orientativo e adapte às condições do laboratório.
+Defina ponto, método, unidade, ajustes e referência de comparação.
+O aplicativo não fornece nem valida limites universais de ultrassom.
+
+5. SEGURANÇA
+Registre riscos, EPIs, medidas preventivas, condição das energias e liberação
+conforme análise do professor/responsável. Não abra proteções ou toque em
+partes perigosas para demonstrar o aplicativo. Analise a necessidade de PT.
+
+6. RESULTADOS
+Use valores efetivamente coletados ou identifique cada exemplo como simulado.
+Não transforme uma leitura em vazão, perda financeira ou diagnóstico final
+sem método, instrumento e referência que sustentem a conclusão.
+Conclusão didática sugerida: indicação localizada compatível com possível
+vazamento; recomenda-se confirmação e planejamento de correção pelo responsável.
+
+7. VALIDAÇÃO
+Confira cada item do checklist e justifique os não aplicáveis.
+Inspeção concluída não significa equipamento reparado.
+Se houver pendência impeditiva, a OS deve continuar aberta.
+Após completar os registros, encerre e baixe o PDF.
+Mostre o histórico por TAG e exporte um backup ao final.

@@ -1,0 +1,93 @@
+BINTECH — PCM DIDÁTICO / INSPEÇÃO POR ULTRASSOM
+Entrega HTML local — 05/11/2026
+
+COMO ABRIR
+1. Extraia o ZIP inteiro para uma pasta permanente.
+2. Abra index.html no Chrome, Edge ou Firefox atualizado.
+3. Não é necessário instalar programas nem ter internet.
+4. Ao concluir cada atividade, entre em Backup e informações e exporte o JSON.
+
+O QUE ESTÁ INCLUÍDO
+- HTML com estilos e JavaScript incorporados e logo em assets, sem bibliotecas externas.
+- Marca BINTECH; grupo Bincorp, Davi Melo e Pedro Henrique; inspeção por ultrassom.
+- 15 equipamentos no primeiro uso: seis do código original e nove complementares.
+- Cadastro, edição, pesquisa, componentes e inativação/exclusão em lote.
+- SS com quatro tipos de manutenção e prioridades; geração de OS vinculada.
+- Planejamento, procedimento, PT analisada manualmente, checklist, execução,
+  pontos de ultrassom, validação e encerramento com exigência dos campos.
+- OS encerradas em modo de consulta.
+- Histórico por TAG, relatório CSV e PDF verdadeiro gerado sem internet.
+- Backup JSON: mesclar novos registros ou restaurar um backup completo.
+
+FLUXO DE USO
+1. Confira a configuração da empresa.
+2. Confira os equipamentos e registre os dados reais quando disponíveis.
+3. Abra uma SS com equipamento, relato, solicitante, tipo e prioridade.
+4. Use Abrir OS na linha da SS. A mesma SS sempre abre a mesma OS.
+5. Preencha as seções do formulário. Salvar rascunho aceita dados parciais.
+6. Insira o roteiro orientativo e adapte-o ao serviço e ao instrumento.
+7. Registre cada ponto de ultrassom: método, leitura, unidade, ajustes,
+   referência e observação. Não há limite normativo inventado no aplicativo.
+8. Complete segurança/PT, checklist, execução e validação.
+9. Validar e encerrar verifica campos, checklist, PT e pendências.
+10. Baixar PDF usa os últimos dados SALVOS. Salve antes de exportar.
+
+EQUIPAMENTOS E REMOÇÃO RÁPIDA
+Equipamentos > Selecionar / remover em lote.
+Busque pelo nome/TAG, selecione os resultados e escolha:
+- Inativar: mantém todos os vínculos e o histórico.
+- Excluir sem vínculos: remove somente os equipamentos que não possuem SS,
+  OS ou componentes relacionados. Há confirmação antes da exclusão.
+Não é possível excluir SS com OS vinculada ou trocar seu equipamento.
+Faça backup antes de excluir registros.
+
+MOTORES REAIS — PENDÊNCIA DA ATIVIDADE
+MOT-001, MOT-002 e MOT-003 são apenas cadastros reservados. Identifique três
+motores físicos, confira placa/fabricante/modelo e registre dados verificados.
+Os datasheets devem ser anexados no Classroom, conforme a atividade.
+O sistema não contém anexador de arquivos ou dados reais de placa.
+Os demais exemplos e as SS iniciais são fictícios.
+
+PRESERVAÇÃO E RECUPERAÇÃO
+A chave local pcm-didatico-v1 foi mantida. No mesmo endereço e navegador,
+esta versão lê os dados compatíveis da versão anterior sem trocar a empresa.
+A migração adiciona apenas exemplos de TAG ausentes; não elimina registros.
+O número total pode exceder 15 se você já tiver outros equipamentos.
+O arquivo baixado não acessa o armazenamento de um site hospedado.
+Mover/renomear o HTML ou mudar de navegador pode mudar o armazenamento
+associado ao arquivo. Use sempre index.html e mantenha backups externos.
+
+Mesclar JSON preserva a empresa e os registros atuais; rejeita conflitos.
+Para levar TODO o trabalho para um novo computador, use Restaurar backup
+completo. A restauração pede confirmação e baixa o backup atual antes de
+substituir o conjunto de dados. Guarde o arquivo baixado para reversão.
+Formato compatível: exportação deste aplicativo e esquema original Bincorp;
+não importa automaticamente bases arbitrárias do Lovable/Supabase.
+
+LIMITES DESTA ENTREGA
+Não há login Google, Lovable Cloud, Supabase, servidor ou sincronização.
+Nenhuma conexão online foi simulada. Para implementar isso, são necessários
+projeto/backend, esquema de dados e configuração de autenticação.
+Este ZIP não publica o link Lovable exigido pelo professor.
+Não há controle de acesso por usuário ou assinatura digital da PT/validação.
+Os nomes e pareceres são registros didáticos, não autorização real de trabalho.
+O PDF usa fonte padrão e translitera acentos para manter portabilidade.
+Os documentos APR/PT/OS são campos didáticos; não há alegação de conformidade
+normativa nem substituição dos procedimentos de segurança do local.
+
+BASE PRESERVADA
+Código de origem: daviomello-tech/PCM, Bincorp_PCM.html.
+SHA do arquivo lido: c3f38946cb3327f82c0ee3b8011ee16455456b1c.
+Esta versão foi preparada para importação no repositório PCM.
+
+ATUALIZAÇÃO VISUAL
+Design inspirado na referência enviada: fundo creme, menu amarelo,
+contornos escuros, sombras sólidas e indicadores em quatro cores.
+Campos, fluxos e chave de armazenamento preservados.
+
+IDENTIDADE BINTECH
+Logo original disponível em assets; mantenha essa pasta junto ao HTML.
+Azul da marca aplicado aos botões, navegação e painel. Ajustados títulos,
+tabelas, sombras, espaçamentos, campos e janelas. O nome padrão Bincorp é
+atualizado uma vez para BINTECH; grupo e integrantes são preservados.
+Empresas com outros nomes personalizados não são renomeadas automaticamente.
